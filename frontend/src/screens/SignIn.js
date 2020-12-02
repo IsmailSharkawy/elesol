@@ -17,14 +17,14 @@ const SignIn = ({ history }) => {
 		}
 	}
 	return (
-		<>
+		<div className='page-1'>
 			<div className='panel'>
 				<img className='logo' src={logo} alt='logo' />
 
 				{/* <div className='beat-container'> */}
 				<div className='heartbeat'>
 					<img className='beat' src={beat} alt='heart-beat' />
-					<Button className='btn' onClick={onBtnClick}>
+					<Button className='sign-btn' onClick={onBtnClick}>
 						Sign In
 					</Button>
 					<img className='line' src={line} alt='line' />
@@ -49,7 +49,7 @@ const SignIn = ({ history }) => {
 					></input>
 				</div>
 			</div>
-		</>
+		</div>
 	)
 }
 
